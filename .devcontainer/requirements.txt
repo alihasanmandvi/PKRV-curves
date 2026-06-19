@@ -1,0 +1,14 @@
+# Foundational Math & Data
+numpy
+pandas
+scipy
+sympy
+
+# Visualization & Deployment
+matplotlib
+streamlit
+jupyterlab
+
+# Tools (Deliberately excluding pandas-stubs to protect CPU cores)
+black
+pytest

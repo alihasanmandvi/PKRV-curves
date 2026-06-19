@@ -1,0 +1,19 @@
+{
+  "name": "Quant Architecture",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "jetbrains": {
+      "backend": "PyCharm"
+    }
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install -r .devcontainer/requirements.txt",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb"
+  }
+}
