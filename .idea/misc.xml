@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="pathToExecutable" value="/usr/local/py-utils/bin/black" />
+    <option name="sdkName" value="Python 3.11 (PKRV-curves) (2)" />
+  </component>
+</project>
