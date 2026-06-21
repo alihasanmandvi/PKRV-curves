@@ -38,7 +38,7 @@ Execution Speed
 
 This repository contains a full-stack algorithmic trading pipeline separated into four distinct micro-services:
 
-1. The Temporal Miner (historical_miner.py & incremental_miner.py)
+1. The Temporal Miner (historical_dataminer.py)
 
 Bypasses basic scraping limitations using a predictive, ID-based mathematical sweep. It dynamically adapts to missing files, weekends, and known CMS anomalies using an exponential search grid to guarantee data ingestion.
 
@@ -46,11 +46,11 @@ Bypasses basic scraping limitations using a predictive, ID-based mathematical sw
 
 Transforms raw, chaotic CSV logs into an institutional, backtest-ready yield matrix. It automatically pivots the data, enforces the 1M to 20Y tenor structure, and applies forward/backward-fill interpolation to heal fractured market days.
 
-3. The Live Scanner (arbitrage_scanner.py & dashboard.py)
+3. The Live Scanner (dashboard.py)
 
 The daily execution environment. Ingests today's live market data, fits the NSS parameters via SciPy's L-BFGS-B algorithm, and flags real-time BUY / SELL signals based on deviations from fair value.
 
-4. The CV Nuke: Historical Backtester (backtester.py)
+4. Historical Backtester (backtester.py)
 
 A vectorized time-machine that walks through the cleaned yield matrix day-by-day. It optimizes the curve daily, tracks signal generation, and calculates cumulative Alpha captured over the lifecycle of the dataset.
 
