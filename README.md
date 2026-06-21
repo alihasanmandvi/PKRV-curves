@@ -28,7 +28,7 @@ Engine Convergence Rate
 
 Total Theoretical Alpha
 
-[Insert BPS from terminal] bps
+5,142 bps
 
 Execution Speed
 
