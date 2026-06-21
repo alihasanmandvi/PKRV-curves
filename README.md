@@ -65,23 +65,22 @@ Ensure you have Python 3.10+ installed. Install the financial libraries via:
 
 1. Run the Live Strategy
 
-To see today's yield curve and live arbitrage signals in the terminal:
+    To see today's yield curve and live arbitrage signals in the terminal:
 
-python arbitrage_scanner.py
-
+``` python arbitrage_scanner.py ```
 
 2. Run the Backtester
 
-To prove the historical Alpha of the model across the cleaned dataset:
+    To prove the historical Alpha of the model across the cleaned dataset:
 
-python backtester.py
+``` python backtester.py ```
 
 
 3. Launch the Dashboard
 
-To boot the live Streamlit visualization UI:
+    To boot the live Streamlit visualization UI:
 
-streamlit run dashboard.py
+``` streamlit run dashboard.py ```
 
 
 ## 🧮 Mathematical Foundation
