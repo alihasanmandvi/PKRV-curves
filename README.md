@@ -10,29 +10,25 @@ To validate the strategy, the integrated historical backtester simulates 5 years
 
 Results based on historical simulation of the 5.0 bps Arbitrage Strategy.
 
-Metric
-
-Result
-
 Simulation Period
 
-Jan 2025 – Jun 2026
+    Jan 2025 – Jun 2026
 
 Arbitrage Threshold
 
-+/- 5.0 bps
+    +/- 5.0 bps
 
 Engine Convergence Rate
 
-> 98.0%
+    > 98.0%
 
 Total Theoretical Alpha
 
-5,142 bps
+    5,142 bps
 
 Execution Speed
 
-< 2.0 seconds
+    < 16.0 seconds
 
 ## 🏗️ System Architecture
 
