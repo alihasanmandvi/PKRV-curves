@@ -108,7 +108,6 @@ def run_historical_simulation(matrix_csv="clean_yield_matrix_2501_to_2606.csv", 
 	print("=" * 60)
 	print(f"🏆 TOTAL THEORETICAL ALPHA CAPTURED: {cumulative_spread_captured_bps:,.0f} Basis Points")
 	print("=" * 60)
-	print("\n[!] Put this Alpha number on your resume.")
 
 if __name__ == "__main__":
 	# Ensure this matches the exact filename outputted by your data_cleaner.py

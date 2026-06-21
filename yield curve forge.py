@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def forge_yield_matrix(input_csv="master_historical_pkrv_2020_2026.csv", output_csv="clean_yield_matrix.csv"):
+def forge_yield_matrix(input_csv="master_historical_pkrv_2501_2606.csv", output_csv="clean_yield_matrix.csv"):
 	"""
 	Transforms a raw scraped CSV into a clean, backtest-ready Yield Curve Matrix.
 	"""
@@ -56,4 +56,4 @@ if __name__ == "__main__":
 	raw_file = "historical_pkrv_matrix.csv"
 	clean_file = "clean_yield_matrix_2501_to_2606.csv"
 
-	forge_yield_matrix(input_csv="master_historical_pkrv_2020_2026.csv", output_csv=clean_file)
+	forge_yield_matrix(input_csv="master_historical_pkrv_2501_2606.csv", output_csv=clean_file)
